@@ -17,7 +17,7 @@ LOCAL_PATH := vendor/widevine/stingray
 # widevine blobs for stingray hardware
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/proprietary/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    $(LOCAL_PATH)/proprietary/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    $(LOCAL_PATH)/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     $(LOCAL_PATH)/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
-    $(LOCAL_PATH)/proprietary/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    $(LOCAL_PATH)/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     $(LOCAL_PATH)/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
